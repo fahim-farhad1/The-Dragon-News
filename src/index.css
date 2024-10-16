@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* import font  */
+@font-face {
+  font-family: 'old-english-text-mt';
+  src: url('./assets/Fonts/old-english-text-mt-regular-font/old.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./assets/Fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./assets/Fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('./assets/Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+body{
+  @apply font-customFonts;
+}
+/* reset code in css */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}

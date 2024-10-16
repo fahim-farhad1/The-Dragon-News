@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        oldEnglishRegular:['old-english-text-mt'],
+        PoppinsRegular: ['Poppins-Regular'],
+        PoppinsBold:['Poppins-Bold'],
+        PoppinsSemiBold:['Poppins-SemiBold'],
+        customFonts: ['Poppins-Regular', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  
 }
