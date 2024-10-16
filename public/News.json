@@ -1,0 +1,182 @@
+{
+    "category": "News",
+    "articles": [
+      {
+        "id": 101,
+        "title": "New Policy Reform Announced",
+        "description": "The government has introduced a series of reforms aimed at improving the economic outlook.",
+        "author": "Jane Doe",
+        "authorImage": "jane-doe.jpg",
+        "date": "2024-10-16",
+        "content": "In a bid to boost the economy, the government has introduced new reforms...",
+        "image": "politics-reform.jpg",
+        "category": "Politics"
+      },
+      {
+        "id": 102,
+        "title": "Election 2024: Key Candidates",
+        "description": "The upcoming elections see a variety of candidates competing for office.",
+        "author": "John Smith",
+        "authorImage": "john-smith.jpg",
+        "date": "2024-10-15",
+        "content": "With the election season heating up, several key figures have emerged...",
+        "image": "election-2024.jpg",
+        "category": "Politics"
+      },
+      {
+        "id": 103,
+        "title": "International Relations Tensions",
+        "description": "Tensions are rising between two major countries over trade disagreements.",
+        "author": "Anna Lee",
+        "authorImage": "anna-lee.jpg",
+        "date": "2024-10-14",
+        "content": "Diplomatic tensions between two global powers have escalated over trade issues...",
+        "image": "international-tensions.jpg",
+        "category": "Politics"
+      },
+      {
+        "id": 201,
+        "title": "Championship Finals: Team A vs Team B",
+        "description": "An epic showdown is expected in the championship finals this weekend.",
+        "author": "Alex Johnson",
+        "authorImage": "alex-johnson.jpg",
+        "date": "2024-10-14",
+        "content": "The finals between Team A and Team B are predicted to be a thrilling contest...",
+        "image": "finals.jpg",
+        "category": "Sports"
+      },
+      {
+        "id": 202,
+        "title": "Olympic Preparations Underway",
+        "description": "Countries are ramping up their training programs for the upcoming Olympics.",
+        "author": "Chris Lee",
+        "authorImage": "chris-lee.jpg",
+        "date": "2024-10-13",
+        "content": "As the Olympics approach, nations are putting their athletes through intense training...",
+        "image": "olympics.jpg",
+        "category": "Sports"
+      },
+      {
+        "id": 203,
+        "title": "Football World Cup Highlights",
+        "description": "Highlights from the latest World Cup, including top goals and best moments.",
+        "author": "Mark Davis",
+        "authorImage": "mark-davis.jpg",
+        "date": "2024-10-12",
+        "content": "The World Cup saw some incredible performances this year, with memorable goals and...",
+        "image": "world-cup.jpg",
+        "category": "Sports"
+      },
+      {
+        "id": 301,
+        "title": "New Smartphone Model Released",
+        "description": "The latest smartphone model features cutting-edge technology and design.",
+        "author": "Sophia Brown",
+        "authorImage": "sophia-brown.jpg",
+        "date": "2024-10-12",
+        "content": "The tech world is abuzz with the release of a new smartphone...",
+        "image": "smartphone.jpg",
+        "category": "Technology"
+      },
+      {
+        "id": 302,
+        "title": "AI Advancements in 2024",
+        "description": "Artificial Intelligence continues to evolve, impacting various industries.",
+        "author": "Michael Green",
+        "authorImage": "michael-green.jpg",
+        "date": "2024-10-11",
+        "content": "AI technology has seen rapid growth, with advancements in machine learning...",
+        "image": "ai-advancements.jpg",
+        "category": "Technology"
+      },
+      {
+        "id": 303,
+        "title": "Virtual Reality: The Future of Gaming",
+        "description": "VR gaming is on the rise with immersive experiences like never before.",
+        "author": "Diana King",
+        "authorImage": "diana-king.jpg",
+        "date": "2024-10-10",
+        "content": "The gaming world is being transformed by virtual reality, offering players new immersive...",
+        "image": "vr-gaming.jpg",
+        "category": "Technology"
+      },
+      {
+        "id": 401,
+        "title": "Blockbuster Movie Release",
+        "description": "The latest blockbuster film has hit theaters, breaking box office records.",
+        "author": "Emily Clark",
+        "authorImage": "emily-clark.jpg",
+        "date": "2024-10-10",
+        "content": "Moviegoers are flocking to theaters to watch the newest blockbuster...",
+        "image": "blockbuster.jpg",
+        "category": "Entertainment"
+      },
+      {
+        "id": 402,
+        "title": "Music Awards 2024: The Highlights",
+        "description": "The annual music awards showcased some of the biggest names in the industry.",
+        "author": "Daniel Carter",
+        "authorImage": "daniel-carter.jpg",
+        "date": "2024-10-09",
+        "content": "This year's music awards were full of surprises, with new artists making waves...",
+        "image": "music-awards.jpg",
+        "category": "Entertainment"
+      },
+      {
+        "id": 403,
+        "title": "Top TV Shows to Watch This Fall",
+        "description": "A list of the must-watch TV shows coming out this season.",
+        "author": "Olivia Moore",
+        "authorImage": "olivia-moore.jpg",
+        "date": "2024-10-08",
+        "content": "This fall brings a slew of new TV shows that are generating major buzz...",
+        "image": "fall-tv-shows.jpg",
+        "category": "Entertainment"
+      },
+      {
+        "id": 501,
+        "title": "New Breakthrough in Cancer Research",
+        "description": "Scientists have made a major breakthrough in cancer treatment.",
+        "author": "Dr. Sarah Phillips",
+        "authorImage": "sarah-phillips.jpg",
+        "date": "2024-10-07",
+        "content": "In a groundbreaking study, researchers have discovered a new way to combat cancer...",
+        "image": "cancer-research.jpg",
+        "category": "Health"
+      },
+      {
+        "id": 502,
+        "title": "Mental Health Awareness: Key Steps",
+        "description": "Steps you can take to improve your mental health and well-being.",
+        "author": "Dr. James Walker",
+        "authorImage": "james-walker.jpg",
+        "date": "2024-10-06",
+        "content": "Mental health is just as important as physical health. Here are some steps you can take...",
+        "image": "mental-health.jpg",
+        "category": "Health"
+      },
+      {
+        "id": 601,
+        "title": "Stock Market Sees Major Gains",
+        "description": "The stock market has surged to record highs following positive economic news.",
+        "author": "Lisa Turner",
+        "authorImage": "lisa-turner.jpg",
+        "date": "2024-10-05",
+        "content": "Investors are celebrating as the stock market hit new highs after reports of...",
+        "image": "stock-market.jpg",
+        "category": "Business"
+      },
+      {
+        "id": 602,
+        "title": "Top Startups to Watch in 2024",
+        "description": "A look at some of the most promising startups that are making waves in 2024.",
+        "author": "Robert Evans",
+        "authorImage": "robert-evans.jpg",
+        "date": "2024-10-04",
+        "content": "Several startups have captured the attention of investors and customers alike this year...",
+        "image": "startups.jpg",
+        "category": "Business"
+      }
+    ]
+  }
+  
