@@ -17,19 +17,18 @@ const Categorys = () => {
         setCategories(uniqueCategories); // Directly setting unique categories
       });
   }, []);
-
   console.log(categories); // Unique categories
   return (
     <div className="">
       <TitleText Text={"All Categorys"} />
 
-      <NavLink to={`/${categories}`}>
       {categories.map((category, idx) => (
+      <NavLink to={`/${category}`}>
         <Category key={idx} name={category} />
-      ))}
       </NavLink>
+      ))}
       <div className="flex items-center gap-5 text-gray-400 hover:text-black text-lg hover:font-PoppinsSemiBold hover:bg-gray-100 py-2 px-3 text-start w-full ">
-        <button>All</button>
+       <NavLink><button>All</button></NavLink> 
         <MdKeyboardDoubleArrowRight />
       </div>
     </div>

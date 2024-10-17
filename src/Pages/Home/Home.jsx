@@ -5,6 +5,7 @@ import TitleText from "../../Components/TitleText/TitleText";
 import NewsCard from "../../Components/NewsCard/NewsCard";
 import LoginsButtons from "../../Components/LoginsButtons/LoginsButtons";
 import SocialContact from "../../Components/Contact/SocialContact";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
