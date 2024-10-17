@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLoaderData, useParams } from 'react-router-dom'
+import { NavLink, useLoaderData, useParams } from 'react-router-dom'
 import Card from '../NewsCard/Card';
 
 const CategoryNews = () => {
@@ -12,7 +12,7 @@ const CategoryNews = () => {
     <div>
       {
         articles.map((article, idx)=>(
-            <Card key={idx}  authorImg={article.authorImage} date={article.date} headline={article.description} newsImage={article.image} context={article.content} authorName={article.author} />
+            <NavLink to={`/${article.category}/${article.id}`}><Card key={idx}  authorImg={article.authorImage} date={article.date} headline={article.description} newsImage={article.image} context={article.content} authorName={article.author} /></NavLink>
         ))
       }
     </div>

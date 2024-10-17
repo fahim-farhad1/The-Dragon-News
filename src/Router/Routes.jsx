@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import CategoriesLayout from "../Layout/CategoriesLayout";
 import CategoryNews from "../Components/CategoryNews/CategoryNews";
 import NewsCard from "../Components/NewsCard/NewsCard";
+import SingleNews from "../Pages/SingleNews";
 
 const router = createBrowserRouter([
   {
@@ -16,24 +17,29 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/about',
-        element: <>This is About Page</>
+        path: "/about",
+        element: <>This is About Page</>,
       },
       {
-          path: '/career',
-          element: <>this is career page</>
+        path: "/career",
+        element: <>this is career page</>,
+      },
+      {
+        path: "/:categories/:id",
+        loader: () => fetch("../../public/News.json"),
+        element: <SingleNews />,
       },
       {
         path: "/:categories",
         element: <CategoriesLayout />,
         errorElement: <>This is error page</>,
-        children:[
+        children: [
           {
-            path:'/:categories',
-            loader: () => fetch('../../public/News.json'),
-            element: <CategoryNews />
-          }
-        ]
+            path: "/:categories",
+            loader: () => fetch("../../public/News.json"),
+            element: <CategoryNews />,
+          },
+        ],
       },
     ],
   },
