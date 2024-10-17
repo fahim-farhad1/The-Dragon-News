@@ -11,9 +11,9 @@ const Header = () => {
 
   const navlink = (
     <>
-      <Link>Home</Link>
-      <Link>About</Link>
-      <Link>Career</Link>
+      <Link to={'/'}>Home</Link>
+      <Link to={'/about'}>About</Link>
+      <Link to={'/career'}>Career</Link>
     </>
   );
 console.log(open)

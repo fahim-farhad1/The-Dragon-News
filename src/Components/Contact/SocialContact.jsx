@@ -10,5 +10,4 @@ const SocialContact = () => {
     </div>
   )
 }
-
 export default SocialContact
