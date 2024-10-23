@@ -3,8 +3,10 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import CategoriesLayout from "../Layout/CategoriesLayout";
 import CategoryNews from "../Components/CategoryNews/CategoryNews";
-import NewsCard from "../Components/NewsCard/NewsCard";
 import SingleNews from "../Pages/SingleNews";
+import Registration from "../Pages/Registration";
+import Login from "../Pages/Login";
+import PrivateRoutes from "./PrivateRoutes";
 
 const router = createBrowserRouter([
   {
@@ -18,11 +20,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <>This is About Page</>,
+        element: <PrivateRoutes><>This is About Page</></PrivateRoutes>
       },
       {
         path: "/career",
-        element: <>this is career page</>,
+        element: <PrivateRoutes><>this is career page</></PrivateRoutes>
       },
       {
         path: "/:categories/:id",
@@ -42,6 +44,14 @@ const router = createBrowserRouter([
         ],
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/registration",
+    element: <Registration />,
   },
 ]);
 
